@@ -1,0 +1,65 @@
+img{
+    width: 100%;
+}
+.logo{
+width: 40%;
+margin: auto;
+display: block;
+}
+.text,  .foto{
+width: 250px;
+padding: 50px;
+flex-grow: 1;
+}
+.flex, .flex-2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.game{
+width: 200px;
+padding: 10px;
+flex-grow: 1;
+text-align: center;
+font-weight: 900;
+
+}
+.minecraft{
+   background-image: linear-gradient(to right top, #16035e, #282479, #3a4294, #4e60ae, #647ec7, #6394d9, #64a9ea, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);   
+padding-top: 70px;
+padding-bottom: 50px;
+margin-bottom: 50px;
+}
+body{
+    margin: 0;
+}
+.Roblox{
+    background-image: linear-gradient(to right top, #cd132c, #e34c21, #f3770f, #fca000, #ffc800, #eddc1b, #d7ee3a, #bfff5a, #9cff80, #7effa3, #67ffc1, #5ffbd9);
+ padding-top: 70px;
+ padding-bottom: 50px;
+ margin-bottom: 50px;
+ }
+ body{
+     margin: 0;
+ }
+ .Need-for-Speed{
+    background-image: linear-gradient(to right top, #a413cd, #9814d6, #8918df, #761de8, #5c24f2, #5c25f6, #5b26fb, #5b27ff, #7921ff, #921aff, #a810ff, #bc00ff);
+ padding-top: 70px;
+ padding-bottom: 50px;
+ margin-bottom: 50px;
+ }
+ body{
+     margin: 0;
+ }
+
+h1{
+    font-family: "Press Start 2P", system-ui;
+text-align: center;
+text-shadow:5px 10px 15px #16035e;
+}
+
+
+
+
+
+
