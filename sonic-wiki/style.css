@@ -1,0 +1,74 @@
+ @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Jura:wght@300..700&family=Lobster&family=Press+Start+2P&family=Rubik+Doodle+Triangles&family=Yeseva+One&display=swap');
+
+ img {
+     width: 100%;
+ }
+
+ .move-top {
+     position: fixed;
+     right: 20px;
+     bottom: 10px;
+     font-size: 2em;
+     color: rgb(5, 1, 198);
+     font-weight: 900;
+     animation: move-top 1s infinite alternate;
+ }
+
+@keyframes move-top{
+     
+    0%{bottom: 10px;}
+    100%{ bottom: 20px;}
+}
+
+ .navbar {
+     background-color: rgb(2, 175, 255) !important;
+
+ }
+
+ .nav-link {
+     color: white !important;
+ }
+
+ .navbar-brand {
+     color: white !important;
+ }
+
+ .logo-img {
+     width: 65px;
+ }
+
+ h1 {
+     font-family: "Rubik Doodle Triangles", system-ui;
+     color: rgb(2, 175, 255);
+
+ }
+
+ p {
+     font-family: "Jura", sans-serif;
+
+ }
+
+ b {
+     font-family: "Amatic SC", sans-serif;
+     font-weight: 900;
+ }
+
+ .nav-link {
+
+     font-family: "Lobster", sans-serif;
+
+ }
+ h2{
+    font-family: "Neucha", cursive;
+  
+ }
+ .row{
+    justify-content: center;
+ }
+ footer{
+    background-color: #363636;
+    color: rgb(2, 175, 255);
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
